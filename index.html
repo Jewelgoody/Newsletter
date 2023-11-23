@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stay Updated</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Roboto">
+</head>
+<body>
+  <section class="section-center">
+    <div class="image-container">
+      <img src="illustration-sign-up-desktop.svg" alt="logo" class="logo">
+    </div>
+    <article id="main">
+      <p class="title">Stay updated!</p>
+      <div>
+        <p class="text">Join 60,000+ product managers receiving monthly updates on:</p>
+      </div>
+      <ul class="list">
+        <li>
+          <img src="icon-list.svg" alt="list-image">
+          Product discovery and building what matters
+        </li>
+        <li>
+          <img src="icon-list.svg" alt="list-image">
+          Measuring to ensure updates are a success
+        </li>
+        <li>
+          <img src="icon-list.svg" alt="list-image">
+          And much more!
+        </li>
+      </ul>
+      
+        <label for="Email">Email address</label>
+        <p id="error-message"></p>
+        <input type="email" placeholder="email@company.com" class="value">
+      <button type="submit" class="submit-btn" id="submit">Subscribe to monthly newsletter</button>  
+    </article> 
+  </section>
+
+  <section class="success">
+    <div class="icon-container">
+      <img src="icon-success.svg" alt="" class="icon-success">
+    </div>
+
+    <article class="success-text">
+      <div class="text-container">
+        <p class="success-title">Thanks for subscribing!</p>
+      <p class="confirmation">A confirmation email has been sent to <span class="email-success">ash@loremcompany.com</span>. PLease open it and click the button inside to confirm your subscription.</p>
+      </div>
+      <button class="dismiss-btn" id="dismiss">Dismiss message</button>
+    </article>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
